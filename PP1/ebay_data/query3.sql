@@ -1,1 +1,0 @@
-SELECT count(*) FROM (SELECT COUNT(*) AS countAuc FROM ItemCategory GROUP BY itemID) WHERE countAuc = 4;

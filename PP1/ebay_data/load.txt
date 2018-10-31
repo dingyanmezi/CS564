@@ -1,9 +1,0 @@
-.separator |
-.import items.dat Item
-update Item set Buy_Price = null where Buy_Price = 'NULL';
-update Item set Description = null where Description = 'NULL';
-.import users_uniq.dat Users
-update Users set Location = null where Location = 'NULL';
-update Users set Country = null where Country = 'NULL';
-.import category_uniq.dat ItemCategory
-.import bids_uniq.dat Bids

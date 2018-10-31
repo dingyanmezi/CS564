@@ -1,1 +1,0 @@
-SELECT Count(*) FROM (SELECT DISTINCT I.sellerID FROM Item I, Bids B WHERE I.SellerID = B.BidderID);
